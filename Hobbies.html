@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Bio</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    </body>
+    <nav>
+        <ul>
+            <li><a href="About-Me.html">Home</a></li>
+            <li><a href="Hobbies.html">Hobbies</a></li>
+            <li><a href="Interests.html">Interests</a></li>
+            <li><a href="Recs.html">Recommendations</a></li>
+        </ul>
+    </nav>
+    <button id="themebutton">Change Theme Color</button>
+
+    <h1> Hobbies </h1>
+
+    <h3> Reading </h3>
+    <h2> Fiction </h2>
+    <ul>
+        <li> Fantasy </li>
+        <li> Dystopian/Utopian </li>
+        <li> Young/New Adult </li>
+        <li> Classics </li>
+    </ul>
+
+        <script>
+            document.getElementById('themebutton').addEventListener('click', function() {
+                document.body.classList.toggle('dark-theme');
+            });
+        </script>
+    </body>
+</html>

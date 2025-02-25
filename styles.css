@@ -1,0 +1,134 @@
+#themebutton {
+    margin: 5px;
+    padding: 10px;
+    border: 3px solid #2e0f19; /* dark brown border box */
+    background-color: #ff85ad; /*pink background button color */
+}
+
+.dark-theme #themebutton {
+    margin: 5px;
+    padding: 10px;
+    border: 3px solid #2e0f19; /* dark brown border box */
+    background-color: #1b5c30; /* green background for dark theme button */
+}
+
+body {
+    background-color: #ff9ebe; /* baby light pink */
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #4d2e29; /* dark brown text */
+}
+
+h1, h2 {
+    font-family: monospace;
+    color: #442520; /* lighter dark brown */
+}
+h1 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+    padding: 5px;
+}
+#Name, #Hobbies, #Interests, #Recs {
+    margin: 10px;
+    border: 2px solid #2e0f19; /* some sort of brown */
+    padding: 15px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Styles for dark theme */
+.dark-theme {
+    background-color: #034317; /* dark background */
+    color: #cfe2f3; /* light text */
+}
+
+.dark-theme h1, .dark-theme h2 {
+    color: #000; /* black color for headers in dark theme */
+}
+
+/* Navigation menu styles */
+nav {
+    background-color: #ff85ad;
+    text-align: center;
+    padding: 15px 0;
+    margin: 20pxs;
+}
+
+.dark-theme nav {
+    background-color: #1b5c30;
+    text-align: center;
+    padding: 15px 0;
+    margin: 20pxs;
+}
+
+nav ul{
+    list-style: georgian;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline; /* Aligns menu items horizontally */
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: overline;
+    color: #2e0f19;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+nav ul li a:hover {
+    color:cornflowerblue; /* change color on hover */
+}
+
+.profile-card {
+    color: #000; /* b;ack for the profile card text*/
+    width: 300px;
+    margin: 20px auto;
+    border: 3px solid #2e0f19;
+    padding: 15px;
+    background-color: #bfa8bc;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dark-theme .profile-card {
+    width: 300px;
+    margin: 20px auto;
+    border: 3px solid #2e0f19;
+    padding: 15px;
+    background-color: #afddb0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card .profile-pic {
+    width: 250px;
+    height: 275px;
+    border-radius: 15%; /*rounded square image*/
+    margin: 0 auto;
+}
+
+.profile-card h3 {
+    margin: 10px 0;
+}
+
+.profile-card p {
+    margin: 5px 0;
+}
